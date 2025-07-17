@@ -1,17 +1,17 @@
 number1 = float(input("Enter the first number: "))
 number2 = float(input("Enter the second number: "))
-operation = input("Choose the operation (+, -, *, /): ")
+operations = input("Choose the operation (+, -, *, /): ")
 
 
-if operation == "+":
+if operations == "+":
     result = number1 + number2
     print(result)
-elif operation == "-":
+elif operations == "-":
     result = number1 - number2
     print(result)
-elif operation == "*":
+elif operations == "*":
     result = number1 * number2
     print(result)
-elif operation == "/":
+elif operations == "/":
     result = number1 / number2
     print(result)
